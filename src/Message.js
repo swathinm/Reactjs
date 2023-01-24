@@ -1,4 +1,4 @@
-import imageOne from './images/one.png'
+/*import imageOne from './images/one.png'*/
 function Message(){
     let msg="yash"
     let name="sam"
@@ -7,7 +7,7 @@ function Message(){
     return <div>
         <h2> Hero:{msg}</h2>
         <h2> heroin:{name}</h2>
-        <img src={imageOne} alt="" />
+        {/* <img src={imageOne} alt="" /> */}
         <img src={image} alt="" />
         </div>
 
