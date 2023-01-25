@@ -1,5 +1,6 @@
 import Navbar from "./component/Navbar"
-// import Message from "./Propstatex/Message"
+//import Message from "./Propstatex/Message"
+import Product from "./Propstatex/Product"
 // import Message1 from "./Propstatex/Message1"
 // import Message2 from "./Propstatex/Message2"
 // import Counter from "./Propstatex/Counter"
@@ -8,7 +9,7 @@ import Navbar from "./component/Navbar"
 // import Message from "./Message"
 // import Main from "./Main"
 // import CompA from  './Props/CompA'
-import ClassA from  './Props/ClassA'
+// import ClassA from  './Props/ClassA'
 
 
 
@@ -16,6 +17,7 @@ import ClassA from  './Props/ClassA'
 function App(){
     return<div>
           <Navbar/>
+           <Product/> 
         { /*<Message/>
          <Message1/>
          <Message2/>
@@ -23,8 +25,8 @@ function App(){
          <Counter1/> */} 
          
 
-         <h1>good morningggg</h1> 
-        <hr/>
+         {/* <h1>good morningggg</h1> 
+        <hr/> */}
         
          {/* <Message/>
         <hr/>
@@ -34,9 +36,7 @@ function App(){
         <hr/> 
          <CompA/>
         <hr/> */ }
-        <ClassA/>
-        
-    
+        {/* <ClassA/> */}
     </div>
 }
 export default App
