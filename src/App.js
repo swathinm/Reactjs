@@ -1,42 +1,13 @@
-import Navbar from "./component/Navbar"
-//import Message from "./Propstatex/Message"
-import Product from "./Propstatex/Product"
-// import Message1 from "./Propstatex/Message1"
-// import Message2 from "./Propstatex/Message2"
-// import Counter from "./Propstatex/Counter"
-// import Counter1 from "./Propstatex/Counter1"
-// import Swathi from "./Swathi"
-// import Message from "./Message"
-// import Main from "./Main"
-// import CompA from  './Props/CompA'
-// import ClassA from  './Props/ClassA'
+import React from 'react'
 
+import Todolist from './TodoApp/Todolist'
 
-
-
-function App(){
-    return<div>
-          <Navbar/>
-           <Product/> 
-        { /*<Message/>
-         <Message1/>
-         <Message2/>
-         <Counter/>
-         <Counter1/> */} 
-         
-
-         {/* <h1>good morningggg</h1> 
-        <hr/> */}
-        
-         {/* <Message/>
-        <hr/>
-        <Swathi/>
-        <hr/>
-        <Main/>
-        <hr/> 
-         <CompA/>
-        <hr/> */ }
-        {/* <ClassA/> */}
+function App() {
+  return (
+    <div className='app'>
+      <Todolist/>
     </div>
+  )
 }
+
 export default App
